@@ -13,3 +13,5 @@ Completed user stories:
  * [x] Optional: locale specific currency and currency thousands separators
  * [x] Optional: Add a light/dark color theme to the settings view
  * [x] Optional: Add app icon
+ 
+![simplytip](https://cloud.githubusercontent.com/assets/4771383/5800005/27c3fce0-9f8e-11e4-86e9-5371f02f4c74.gif)
