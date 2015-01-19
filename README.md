@@ -14,5 +14,4 @@ Completed user stories:
  * [x] Optional: Add a light/dark color theme to the settings view
  * [x] Optional: Add app icon
  
-
-![simplytip](https://cloud.githubusercontent.com/assets/4771383/5800005/27c3fce0-9f8e-11e4-86e9-5371f02f4c74.gif)
+![simplytip](https://cloud.githubusercontent.com/assets/4771383/5805776/ec2f45fc-9fc6-11e4-819e-0bc74378b6c0.gif)
