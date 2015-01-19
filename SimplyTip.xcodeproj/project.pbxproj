@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5054DFC91A69E50A00E464F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5054DFC81A69E50A00E464F4 /* main.m */; };
+		5054DFCC1A69E50A00E464F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5054DFCB1A69E50A00E464F4 /* AppDelegate.m */; };
+		5054DFD41A69E50A00E464F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5054DFD31A69E50A00E464F4 /* Images.xcassets */; };
+		5054DFE31A69E50A00E464F4 /* SimplyTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5054DFE21A69E50A00E464F4 /* SimplyTipTests.m */; };
+		50AF6A791A69E99B007ECE7F /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF6A771A69E99B007ECE7F /* TipViewController.m */; };
+		50AF6A7A1A69E99B007ECE7F /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF6A781A69E99B007ECE7F /* TipViewController.xib */; };
+		50AF6A7E1A6A0115007ECE7F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF6A7C1A6A0115007ECE7F /* SettingsViewController.m */; };
+		50AF6A7F1A6A0115007ECE7F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF6A7D1A6A0115007ECE7F /* SettingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5054DFDD1A69E50A00E464F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5054DFBB1A69E50A00E464F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5054DFC21A69E50A00E464F4;
+			remoteInfo = SimplyTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5054DFC31A69E50A00E464F4 /* SimplyTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5054DFC71A69E50A00E464F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5054DFC81A69E50A00E464F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5054DFCA1A69E50A00E464F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5054DFCB1A69E50A00E464F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5054DFD31A69E50A00E464F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5054DFDC1A69E50A00E464F4 /* SimplyTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5054DFE11A69E50A00E464F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5054DFE21A69E50A00E464F4 /* SimplyTipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplyTipTests.m; sourceTree = "<group>"; };
+		50AF6A761A69E99B007ECE7F /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		50AF6A771A69E99B007ECE7F /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		50AF6A781A69E99B007ECE7F /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
+		50AF6A7B1A6A0115007ECE7F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		50AF6A7C1A6A0115007ECE7F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		50AF6A7D1A6A0115007ECE7F /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5054DFC01A69E50A00E464F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5054DFD91A69E50A00E464F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5054DFBA1A69E50A00E464F4 = {
+			isa = PBXGroup;
+			children = (
+				5054DFC51A69E50A00E464F4 /* SimplyTip */,
+				5054DFDF1A69E50A00E464F4 /* SimplyTipTests */,
+				5054DFC41A69E50A00E464F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5054DFC41A69E50A00E464F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5054DFC31A69E50A00E464F4 /* SimplyTip.app */,
+				5054DFDC1A69E50A00E464F4 /* SimplyTipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5054DFC51A69E50A00E464F4 /* SimplyTip */ = {
+			isa = PBXGroup;
+			children = (
+				5054DFCA1A69E50A00E464F4 /* AppDelegate.h */,
+				5054DFCB1A69E50A00E464F4 /* AppDelegate.m */,
+				50AF6A761A69E99B007ECE7F /* TipViewController.h */,
+				50AF6A771A69E99B007ECE7F /* TipViewController.m */,
+				50AF6A7B1A6A0115007ECE7F /* SettingsViewController.h */,
+				50AF6A7C1A6A0115007ECE7F /* SettingsViewController.m */,
+				50AF6A7D1A6A0115007ECE7F /* SettingsViewController.xib */,
+				50AF6A781A69E99B007ECE7F /* TipViewController.xib */,
+				5054DFD31A69E50A00E464F4 /* Images.xcassets */,
+				5054DFC61A69E50A00E464F4 /* Supporting Files */,
+			);
+			path = SimplyTip;
+			sourceTree = "<group>";
+		};
+		5054DFC61A69E50A00E464F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5054DFC71A69E50A00E464F4 /* Info.plist */,
+				5054DFC81A69E50A00E464F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5054DFDF1A69E50A00E464F4 /* SimplyTipTests */ = {
+			isa = PBXGroup;
+			children = (
+				5054DFE21A69E50A00E464F4 /* SimplyTipTests.m */,
+				5054DFE01A69E50A00E464F4 /* Supporting Files */,
+			);
+			path = SimplyTipTests;
+			sourceTree = "<group>";
+		};
+		5054DFE01A69E50A00E464F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5054DFE11A69E50A00E464F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5054DFC21A69E50A00E464F4 /* SimplyTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5054DFE61A69E50A00E464F4 /* Build configuration list for PBXNativeTarget "SimplyTip" */;
+			buildPhases = (
+				5054DFBF1A69E50A00E464F4 /* Sources */,
+				5054DFC01A69E50A00E464F4 /* Frameworks */,
+				5054DFC11A69E50A00E464F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplyTip;
+			productName = SimplyTip;
+			productReference = 5054DFC31A69E50A00E464F4 /* SimplyTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5054DFDB1A69E50A00E464F4 /* SimplyTipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5054DFE91A69E50A00E464F4 /* Build configuration list for PBXNativeTarget "SimplyTipTests" */;
+			buildPhases = (
+				5054DFD81A69E50A00E464F4 /* Sources */,
+				5054DFD91A69E50A00E464F4 /* Frameworks */,
+				5054DFDA1A69E50A00E464F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5054DFDE1A69E50A00E464F4 /* PBXTargetDependency */,
+			);
+			name = SimplyTipTests;
+			productName = SimplyTipTests;
+			productReference = 5054DFDC1A69E50A00E464F4 /* SimplyTipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5054DFBB1A69E50A00E464F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bishwajit Aich.";
+				TargetAttributes = {
+					5054DFC21A69E50A00E464F4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5054DFDB1A69E50A00E464F4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5054DFC21A69E50A00E464F4;
+					};
+				};
+			};
+			buildConfigurationList = 5054DFBE1A69E50A00E464F4 /* Build configuration list for PBXProject "SimplyTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5054DFBA1A69E50A00E464F4;
+			productRefGroup = 5054DFC41A69E50A00E464F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5054DFC21A69E50A00E464F4 /* SimplyTip */,
+				5054DFDB1A69E50A00E464F4 /* SimplyTipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5054DFC11A69E50A00E464F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AF6A7A1A69E99B007ECE7F /* TipViewController.xib in Resources */,
+				50AF6A7F1A6A0115007ECE7F /* SettingsViewController.xib in Resources */,
+				5054DFD41A69E50A00E464F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5054DFDA1A69E50A00E464F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5054DFBF1A69E50A00E464F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5054DFCC1A69E50A00E464F4 /* AppDelegate.m in Sources */,
+				50AF6A791A69E99B007ECE7F /* TipViewController.m in Sources */,
+				5054DFC91A69E50A00E464F4 /* main.m in Sources */,
+				50AF6A7E1A6A0115007ECE7F /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5054DFD81A69E50A00E464F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5054DFE31A69E50A00E464F4 /* SimplyTipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5054DFDE1A69E50A00E464F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5054DFC21A69E50A00E464F4 /* SimplyTip */;
+			targetProxy = 5054DFDD1A69E50A00E464F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5054DFE41A69E50A00E464F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5054DFE51A69E50A00E464F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5054DFE71A69E50A00E464F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplyTip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5054DFE81A69E50A00E464F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplyTip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5054DFEA1A69E50A00E464F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimplyTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyTip.app/SimplyTip";
+			};
+			name = Debug;
+		};
+		5054DFEB1A69E50A00E464F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimplyTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyTip.app/SimplyTip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5054DFBE1A69E50A00E464F4 /* Build configuration list for PBXProject "SimplyTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5054DFE41A69E50A00E464F4 /* Debug */,
+				5054DFE51A69E50A00E464F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5054DFE61A69E50A00E464F4 /* Build configuration list for PBXNativeTarget "SimplyTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5054DFE71A69E50A00E464F4 /* Debug */,
+				5054DFE81A69E50A00E464F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5054DFE91A69E50A00E464F4 /* Build configuration list for PBXNativeTarget "SimplyTipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5054DFEA1A69E50A00E464F4 /* Debug */,
+				5054DFEB1A69E50A00E464F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5054DFBB1A69E50A00E464F4 /* Project object */;
+}
