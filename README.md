@@ -1,6 +1,6 @@
-SimplyTip - tip calculator
+<h1>SimplyTip<h1>
 
-SimplyTip is an iOS application which helps you calculate tip amount and total bill amount given your preference of tip percentage.
+<p>SimplyTip is an iOS application which helps you calculate tip amount and total bill amount given your preference of tip percentage.</p>
 
 Time spent: 7 hours 
 
